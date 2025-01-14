@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovative Siva - Portfolio</title>
+    <title>Siva Durshika G | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header Section -->
-    <header>
+    <header id="header">
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
-            <p>I'm Siva Durshika- A Passionate Developer & Innovator</p>
+            <p>I'm Siva Durshika - A Passionate Developer & Innovator</p>
             <a href="#contact" class="cta-btn">Let's Connect</a>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
         <p>Hi, I'm Siva, an Information Technology student and a passionate developer. I love creating innovative solutions through coding and learning new technologies every day. I'm constantly striving to improve my skills and knowledge to contribute meaningfully to the tech community.</p>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="section">
         <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill">
@@ -46,10 +48,10 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <p>Feel free to reach out to me for any inquiries or collaborations!</p>
-        <form action="#" method="POST">
+        <form id="contact-form">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required placeholder="Enter your name">
 
@@ -71,7 +73,20 @@
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Siva | All Rights Reserved</p>
+        <p>&copy; 2025 Siva Durshika G | All Rights Reserved</p>
     </footer>
+
+    <!-- Modal Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h3>Thank you for visiting my portfolio!</h3>
+            <p>If you want to collaborate or inquire further, feel free to reach out!</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
 </body>
+
 </html>
