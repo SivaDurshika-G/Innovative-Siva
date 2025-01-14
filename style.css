@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* Header */
+header {
+    background: #0077b5;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cta-btn:hover {
+    background-color: #ff4500;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #e3e3e3;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.progress-bar div {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.html {
+    width: 90%;
+    background-color: #f06529;
+}
+
+.css {
+    width: 80%;
+    background-color: #2965f1;
+}
+
+.js {
+    width: 70%;
+    background-color: #f0db4f;
+}
+
+.python {
+    width: 85%;
+    background-color: #306998;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #005f8e;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a.github {
+    background-color: #333; /* GitHub black */
+}
+
+.social-links a:hover {
+    background-color: #0056a3; /* LinkedIn hover effect */
+}
+
+.social-links a.github:hover {
+    background-color: #444; /* GitHub hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
