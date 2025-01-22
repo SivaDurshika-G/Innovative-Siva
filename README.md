@@ -21,5 +21,5 @@ Welcome to the portfolio website of Siva Durshika! I am a passionate developer a
 - HTML5: For the structure of the website.
 - CSS3: For styling, including animations, hover effects, and responsiveness.
 - JavaScript: To add interactivity such as pop-ups and smooth scrolling.
-- Vanilla Tilt.js: For adding tilt effects to the hero section for a dynamic feel.
+
 
